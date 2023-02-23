@@ -1,0 +1,197 @@
+body {
+
+	background: linear-gradient(rgb(0, 148, 255), rgb(0, 140, 255));
+     background-size: cover;
+	 
+   }  
+
+ #main {
+	width:896px;
+	height:auto;
+	margin:0 auto;
+}
+
+header {
+	widows: 900px;
+	height:220px;
+	background-color: #FFF;
+	text-align: end;
+
+}
+
+.logo {
+	margin-left:380px;
+	width:130px;
+	height:107px;
+	float:left;
+	margin-right:30px;
+	margin-top: -40px;
+}
+span{
+	color:#09F ;
+}
+span:hover{
+	color: black;
+}
+h1{
+	color: black;
+	
+}
+
+h1:hover{
+	color:#09F ;
+}
+
+       
+
+               
+nav {
+	width:896px;
+	height:40px;
+	
+}
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+nav ul li{
+	float:left; /* trocando a lista vertical  para horizontal*/
+}
+
+nav ul li a{
+	display:block;
+	width:129.3px;
+	height:20px;
+	padding:10px;
+	text-align:center;
+	background-color: rgb(8, 170, 245);
+	color:#FFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-decoration:none;	
+}
+
+nav ul li a:hover {
+	background-color:#09F;
+	color:rgb(0, 0, 0);
+	
+}
+
+/*to hide the submenu*/
+nav ul li ul {
+	display:none;
+}
+
+nav ul li:hover ul{
+	display:block;
+	position:absolute;	
+}
+
+
+/*para escoder o submenu do dropdown menu mostrado apartir do default*/
+nav ul li:hover ul li ul {
+    display:none;
+	
+}
+
+/*para mostrar o submenu apenas quando coloca mouse over do dropdown menu item*/
+
+nav ul li:hover ul li:hover ul {
+	display:block;
+	position:absolute;
+	margin-left:95%;
+	margin-top:-20%;
+}
+label{
+	font-size: 16px;
+}
+
+
+
+	   
+section {
+	width:500px;
+	height:auto;
+	background-color:rgb(255, 255, 255);
+	float:left;
+    text-align:center;
+            
+        
+}    
+article {
+	padding:10px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	width:460px;
+	height:auto;
+	border:solid 2px rgb(0, 0, 0);
+	border-radius:5px;
+	margin-bottom: 20px;
+}
+
+article p {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: rgb(0, 0, 0);
+	text-align:justify;
+	
+}    
+
+
+article h3 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	text-align:left;
+}
+	
+	
+	
+aside {
+	
+	padding:10px;
+	width:376px;
+	height:auto;
+	background-color:rgb(255, 255, 255);
+	float:right;
+    color:black; 
+    text-align: center;
+}
+footer {
+	width:876px;
+	height:14px;
+	padding:10px;
+	background-color: rgb(8, 170, 245); color:rgb(255,255,255); 
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	clear:both;
+	text-align:center;
+	
+}
+
+video{
+	margin-top: 12px;
+	border-radius: 12px;
+}
+
+
+input{
+	width: 180px;
+     color: black;
+	border-radius: 2px;
+}
+legend{
+	position: relative;
+	margin-left: 700px;
+	margin-top: -55px;
+}
+h1{
+	position: relative;
+	margin-left: 45px;
+
+}
+
+
+
+   
